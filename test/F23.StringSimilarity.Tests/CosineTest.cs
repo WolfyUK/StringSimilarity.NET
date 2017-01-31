@@ -83,7 +83,7 @@ namespace F23.StringSimilarity.Tests
 
         private static async Task<string> ReadResourceFileAsync(string file)
         {
-            var assembly = Assembly.GetExecutingAssembly();
+            var assembly = typeof(CosineTest).GetTypeInfo().Assembly;
             var resourceName = $"{typeof(CosineTest).Namespace}.{file}";
 
             using (var stream = assembly.GetManifestResourceStream(resourceName))

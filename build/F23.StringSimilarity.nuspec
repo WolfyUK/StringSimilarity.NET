@@ -17,6 +17,6 @@
         <tags>string similarity distance cosine damerau jaccard jaro-winkler levenshtein ngram qgram shingle sift4</tags>
     </metadata>
     <files>
-        <file src="..\src\F23.StringSimilarity\bin\release\F23.StringSimilarity.dll" target="lib" />
+        <file src="..\src\F23.StringSimilarity\bin\release\netstandard1.6\F23.StringSimilarity.dll" target="lib\netstandard1.6" />
     </files>
 </package>
